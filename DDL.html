@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport” content="width=device-width, initial-scale=1.0,
+     user-scalable=0, minimum-scale=1.0, maximum-scale=1.0>    <link rel="stylesheet" href="sql.css">
+    <title>DDL</title>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="logo.png" alt="" class="logo" style="padding-left: 30px;"></a> 
+  
+          <ul>
+              
+              <li><a href="https://www.facebook.com/nadun.charuka.520" target="_blank"> <img src="fb.png" alt="" class="logo" style="padding-left: 30px;"> </a></li>
+              
+         </ul>
+      </div>
+
+
+    <br><br><br>
+    
+    <div class="topic">
+    <u><h1 class="header">Learn about DDL</h1></u>
+    <h3>DDL statements are used to define 
+        the database stucture. It allows to create,alter
+         or destroy databese object. </h3>
+           </div>
+    <br><br>
+           <div class="first5">
+    
+            <h2>Create a Database</h2>
+            <h1>CREATE DATABASE Student_Details;</h1>
+            <br><br>
+            <h2>To use Database</h2>
+            <h1>USE Student_Details;</h1>
+            <br><br>
+            <h2>Create a table</h2>
+            <h1>CREATE TABLE Student(<br>
+                St.Index int(8) NOT NULL,<br>
+                Name varchar(60) NOT NULL,<br>
+                Adress varchar(60) NOT NULL,<br>
+                Class varchar (4) NOT NULL);
+            </h1>
+            <br><br>
+            <h2>Describe a table</h2>
+            <h1>DESCRIBE Student;</h1>
+            <br><br>
+            <h2>Assign a Primary key</h2>
+            <h1>PRIMARY KEY(St.Index);</h1>
+            <br><br>
+            <h2>Assign a prmary key when the table is alredy creted
+            <h1>ALTER TABLE Student ADD PRIMARY KEY (St.index);</h1></h2>
+            <br><br>
+            <h2>Create a Forign key</h2>
+            <h1>FOREIGN KEY (St.Index) REFERENCES Student (St.index);</h1>
+            <br><br>
+            <h2>Assign a Foreign key when the table is alredy created</h2>
+            <h1>ALTER TABLE Sport ADD FOREIGN KEY (St.index) REFERENCES Student(St.Index);</h1>
+            <br><br>
+            <h2>Add new column to the table</h2>
+            <h1>ALTER TABLE Student ADD Contact varchar(10);</h1>
+            <br><br>
+            <h2>Remove a column from the table</h2>
+            <h1>ALTER TABLE Student DROP Contact;</h1>
+            <br><br>
+            <h2>Remove a Foreign key from the table</h2>
+            <h1>ALTER TABLE Sport DROP FOREIGN KEY St.Index;</h1>
+            <br><br>
+            <h2>Remove a Primary key from the table</h2>
+            <h1>ALTER TABLE Student DROP PRIMARY KEY;</h1>
+            <br><br>
+            <h2>Remove a table from the Database</h2>
+            <h1>DROP TABLE Student;</h1>
+            <br><br>
+            <h2>Remove a database</h2>
+            <h1>DROP DATABASE Student_Details;</h1>
+            <br><br>
+               
+
+    
+           </div>
+</body>
+</html>

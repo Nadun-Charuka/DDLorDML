@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    background-image: url("background3.png");
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(to bottom, #9933ff 0%, #ffffff 100%);
+
+}
+
+.background{
+    background: linear-gradient(to bottom, #ffffff 0%, #6699ff 100%);
+}
+
+.comment{
+    border: 3px solid;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:lightskyblue;
+
+
+}
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(73, 3, 185);
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px 20px;
+    position: relative;
+    font-size: 25px;
+}
+ 
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    
+}
+
+.navbar li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: lightgreen;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar li:hover::after{
+    width: 100%;
+
+}
+
+
+
+#ddl{
+    font-size: 35px;
+    margin-top: 75px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 37, 37);
+
+
+}
+
+#addl{ 
+    text-decoration: none;
+    color: rgb(20, 161, 39);
+    text-transform: capitalize;
+
+}
+
+#para1>*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 28px;
+
+
+}
+
+#para3{
+    margin: 10px;
+    padding: 5px;
+}
+
+
+#parahead{
+    font-family: initial;
+    font-size: 55px;
+    border: 3px solid darkseagreen;
+    margin-bottom: 4px;
+    
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 25px;
+}
+#relational{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(230, 82, 82);
+}
+#bodydiv{
+    margin: 10px;
+    padding: 5px;
+}
+
+.secondpic{
+    
+    width: 100%;
+    height: 600px;
+    background-image: url("test1.jpg");
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+
+table{
+    align-self: center;
+    border-style: none;
+    align-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(109, 73, 73);
+    text-align: center;
+    border-color: rgb(249, 178, 57);
+    
+}
+
+
+
+#logicalp{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+font-size: 19px;
+text-align: justify;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#logicalh1{
+    font-family: -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell
+    , 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: purple;
+    
+}
+
+#logicaltopic{
+    font-family: Cambria, Cochin, Georgia, 
+    Times, 'Times New Roman', serif;
+    color: rgb(109, 29, 184);
+    text-align: left;
+    padding-left: 10px;
+    text-align: center;
+    
+    
+}
+
+#lastpic{
+    width: 100%;
+    height: 100%;
+    background-image: url(b.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}
+
+#lasttext{
+    font-size: 30px;
+    color: rgb(36, 244, 248);
+    margin: 50px;
+}
+
+
+#erborder{
+    color: fuchsia;
+}
+#erp{
+    font-size: 20px;
+    color: rgb(251, 103, 103);
+}
+
+
+#example{
+    font-size: 15px;
+}
+
+button
+{
+color: rgb(139, 18, 58);
+background:#999;
+font-size:33px;
+border-radius: 10px;
+padding-left: 5px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+}
+
+
+
+
+button:hover
+{
+color:rgb(235, 231, 20);
+background:rgb(12, 165, 37);
+}
+
+marquee{
+    color: rgb(244, 228, 10);
+}
+

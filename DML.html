@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0, 
+    user-scalable=0, minimum-scale=1.0, maximum-scale=1.0″>
+
+
+    <title>DML</title>
+    <link rel="stylesheet" href="sql.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="logo.png" alt="" class="logo" style="padding-left: 30px;"></a> 
+  
+          <ul>
+              
+              <li><a href="https://www.facebook.com/nadun.charuka.520" target="_blank"> <img src="fb.png" alt="" class="logo" style="padding-left: 30px;"> </a></li>
+              
+         </ul>
+      </div>
+
+      <br><br><br>
+
+    <div class="topic">
+        <h1 class="header">Learn about DML</h1>
+        <h3>DML is used to insert,update,delete,
+            and retreive data in database table.  </h3>
+        
+    </div>
+    <br><br>
+<div class="first5">
+    <h2>Insert Data in to a table</h2>
+    <h1> <u>i)INSERT INTO</u>  <br>
+        INSERT INTO Student (St.Index,Name,
+        Address,Class,) <br>
+        VALUES(253,"Amal","Malabe",10);
+         <br><br>
+        <u>i) SET </u>i<br>
+        INSERT INTO Student SET 
+        St.Index=253,Name="Amal",
+        Address="Kandy",Class="10"; <br>
+       
+    </h1>
+    <br><br>
+    <h2>Display all data in a table</h2>
+    <H1>SELECT * FROM Student;</H1>
+    <br><br>
+    <h2>Display only the name and address of the 
+        students in student table</h2>
+    <h1>SELECT Name,address FROM Student;</h1>
+    <br><br>
+    <h2>Select the name of all students
+         where the address is "Kandy"</h2>
+    <h1>SELECT Name FROM Student 
+        WHERE address = "Kandy";</h1>
+    <br><br>
+    <h2>Select the name of all student where the 
+        address is Kandy or Class is 10</h2>
+    <h1>SELECT Name FROM Student WHERE Adress
+         ="Kandy" or class="10";</h1>
+    <br><br>
+    <h2>Update Query</h2>
+    <h1>UPDATE Student SET St.Index=253,Name="Amal",
+        Adreess="malabe",Class=11;</h1>
+    <br><br>
+    <h2>Delete Query</h2>
+    <h1>DELETE FROM Student WHERE St.index=253;</h1>
+    <br><br>
+    <h2>Delete All the data in table </h2>
+    <h1>DELETE FROM Student;</h1>
+    <br><br>
+
+
+
+
+
+</div>   
+    
+</body>
+</html>
